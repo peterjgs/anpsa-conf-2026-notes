@@ -1,0 +1,181 @@
+---
+title: "ANPSA Conference 2026 - Notes"
+author: "Peter GS"
+date: "2026-08-26"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+```{r eval = T, message = F}
+
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+library(flextable)
+
+
+```
+
+
+# Desert ecology - Steve Morton
+
+Major forces at play in shaping arid Australia:
+
+1. Time
+
+    - continental drift into mid-latitudes, where arid conditions exist
+    - no geological rejuvenation over this time (e.g. volcanic activity ?)
+    - landscape has been formed by cycles of erosion and deposition
+    
+2. Climate
+
+    - extreme variability is the norm
+    - east arid zone
+        - firmer red earths soil type, which resists complete infiltration of rainfall and allows surface runoff (Note he said elsewhere that red earths allow water to infiltrate deeply. How does this square up?)
+    - west arid zone
+        - soil has much higher sand content and water completely infiltrates into it
+        
+Ephemeral plants use water that's available in the short term.
+
+Perennial plants use water that they can draw on over the long term.
+
+Mulga communities sum up the plant ecology of arid Australia - unclear to me. (This is the idea in his book about bands of mulga passing on water and nutrients in some way that gives them a double dose.)
+
+Perennial plants photosynthesise a lot to produce carbohydrate which they put into root growth so theycan tap into water deep in the soil.
+
+As a lot of plant matter is produced, fire hazard increases.
+
+{Check out the ecological flowchart - probabky in his book.}
+
+Ants are everywhere and play a big role in plant propagation (moving seed around) and plant protection (preying on insects that damage plants).
+
+What are the main factors that give inland plants their characteristics?
+
+- little rain
+- occasional large falls of rain
+- infertile soils
+
+
+*Outstanding questions*
+
+- Root structure in soil
+- Fertility of desert soils
+    - average figures are probably not useful as local variability is so high
+- Role of fungi, nutrient cycling and organisms that consume plants
+- Transfer of carbohydrate by ants
+    - there are few, if any, measures of the importance of ants in moving carbohydrate around
+
+
+<br>
+<br>
+
+# Biogeography of Central Australian flora
+
+*Overview*
+
+- species groups
+- notable absences from these species groups
+- origins
+
+*Characteristics of Central Australia*
+
+- varied topography
+- large desert areas
+- several different bioregions
+
+Arid southern Northern Territory has a very large number of species despite the harsh climate (i.e. low rainfall, low nutrient soil)
+
+Simpson Desert has about 100 species, with maybe only one or two endemic species
+
+- this may be due to the Simpson Desert being a relatively young desert
+
+*Types of desert environment*
+
+- sand dunes
+    - these occur mostly in deserts
+    
+- alluvial clay plains   
+    - these provide varied habitats
+    - most important are the Burt Plains
+    
+- gibber plains
+    - not common in the Norther Territory - there are some in the Finke River bioregion
+    - they provide a variety of habitats, which vary with salt level and soil
+    
+- saltpans and lakes
+    - for example, Lake Amadeus
+    - in saline environments, there are a range of plants adapted to these conditions, including some chenopods, daisies, peas and samphires
+    
+- rivers and ephemeral swamps
+    - for example, Hale R., Plenty R., Finke R., the latter being the oldest river system in the world
+    - the origin of rivers is on the *other side* of the ranges, not *in* the ranges
+    - all these rivers flow to nowhere because sand has blocked their course
+    
+- hills
+
+- gorges and mountains
+    - especially Davenport, Murchison and MacDonnell Ranges
+    - note Mount Sonder is 1,200 m high
+
+<br>
+
+*Plant species* 
+
+*Sida*
+- half the species are undescribed and the other half are hard to tell apart
+
+Dominant plant families
+
+
+```{r message = F}
+
+fams <- read_csv("desert_plant_families.csv")
+
+fams %>%
+  kable() %>%
+  kable_styling(full_width = F)
+
+```
+
+
+
+```{r eval = F}
+
+fams <- read_csv("desert_plant_families.csv")
+
+fams_ft <- flextable(fams)
+fams_ft <- autofit(fams_ft)
+fams_ft
+
+```
+
+Absent species
+
+- no Rutaceae species!
+- no orchids!
+
+<br>
+
+*Random bits*
+
+- *Callitris* only lives on slopes, away from fire prone areas (e.g. up on Simpsons Gap)
+- Wind pollination is ore common than in other regions (i.e. more common than insect pollination)
+- Some plants were here when Central Australia was a lot wetter (e.g. cycads - *Macrozamia* and ferns) - these are *refugia* species
+- Plant distribution patterns depend on the origins of plants:
+    - temperate
+    - tropical
+    - regugia
+    
+  
+
+
+
+
