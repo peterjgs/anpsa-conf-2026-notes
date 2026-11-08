@@ -3,7 +3,10 @@ title: "ANPSA Conference 2026 - Notes"
 author: "Peter GS"
 date: "2026-08-26"
 output:
-  html_document: default
+  html_document: 
+    toc: true
+    toc_depth: '4'
+    toc_float: true
   pdf_document: default
 ---
 
@@ -32,14 +35,18 @@ Major forces at play in shaping arid Australia:
 1. Time
 
     - continental drift into mid-latitudes, where arid conditions exist
-    - no geological rejuvenation over this time (e.g. volcanic activity ?)
-    - landscape has been formed by cycles of erosion and deposition
+    - no geological rejuvenation over this time (e.g. no volcanic activity)
+    - landscape has been formed by cycles of erosion and deposition by water and wind
     
 2. Climate
 
     - extreme variability is the norm
     - east arid zone
-        - firmer red earths soil type, which resists complete infiltration of rainfall and allows surface runoff (Note he said elsewhere that red earths allow water to infiltrate deeply. How does this square up?)
+        - firmer red earths soil type (i.e. Kandosol), which resists complete infiltration of rainfall and allows surface runoff
+            - Kandosols have a loamy topsoil which often displays crusting and hardsetting. Vegetation cover can improve infiltration.
+            -  These soils are well-drained (after water infiltrates!).
+            -  They are heavily weathered soils. They are massive and are not texture contrast soils.
+            -  Clay content increases with depth (Mackenzie, *Aust. Soil Landscapes*, p. 69).
     - west arid zone
         - soil has much higher sand content and water completely infiltrates into it
         
@@ -53,7 +60,7 @@ Perennial plants photosynthesise a lot to produce carbohydrate which they put in
 
 As a lot of plant matter is produced, fire hazard increases.
 
-{Check out the ecological flowchart - probably in his book.}
+Check out the ecological flowchart (Morton, *Australian Deserts*, p. 239).
 
 Ants are everywhere and play a big role in plant propagation (moving seed around) and plant protection (preying on insects that damage plants).
 

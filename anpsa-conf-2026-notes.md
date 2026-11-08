@@ -1,0 +1,223 @@
+---
+title: "ANPSA Conference 2026 - Notes"
+author: "Peter GS"
+date: "2026-08-26"
+output:
+  html_document: 
+    toc: true
+    toc_depth: '4'
+    keep_md: true
+    df_print: paged
+  pdf_document: default
+---
+
+
+
+
+
+
+
+# Desert ecology - Steve Morton
+
+Major forces at play in shaping arid Australia:
+
+1. Time
+
+    - continental drift into mid-latitudes, where arid conditions exist
+    - no geological rejuvenation over this time (e.g. volcanic activity ?)
+    - landscape has been formed by cycles of erosion and deposition
+    
+2. Climate
+
+    - extreme variability is the norm
+    - east arid zone
+        - firmer red earths soil type (i.e. Kandosol), which resists complete infiltration of rainfall and allows surface runoff
+            - Kandosols have a loamy topsoil which often displays crusting and hardsetting. Vegetation cover can improve infiltration.
+            -  These soils are well-drained (after water infiltrates!).
+            -  They are heavily weathered soils. They are massive and are not texture contrast soils.
+            -  Clay content increases with depth (Mackenzie, *Aust. Soil Landscapes*, p. 69).
+    - west arid zone
+        - soil has much higher sand content and water completely infiltrates into it
+        
+Ephemeral plants use water that's available in the short term.
+
+Perennial plants use water that they can draw on over the long term.
+
+Mulga communities sum up the plant ecology of arid Australia - unclear to me. (This is the idea in his book about bands of mulga passing on water and nutrients in some way that gives them a double dose.)
+
+Perennial plants photosynthesise a lot to produce carbohydrate which they put into root growth so they can tap into water deep in the soil.
+
+As a lot of plant matter is produced, fire hazard increases.
+
+{Check out the ecological flowchart - probably in his book.}
+
+Ants are everywhere and play a big role in plant propagation (moving seed around) and plant protection (preying on insects that damage plants).
+
+What are the main factors that give inland plants their characteristics?
+
+- little rain
+- occasional large falls of rain
+- infertile soils
+
+
+*Outstanding questions*
+
+- Root structure in soil
+- Fertility of desert soils
+    - average figures are probably not useful as local variability is so high
+- Role of fungi, nutrient cycling and organisms that consume plants
+- Transfer of carbohydrate by ants
+    - there are few, if any, measures of the importance of ants in moving carbohydrate around
+
+
+<br>
+<br>
+
+# Biogeography of Central Australian flora
+
+*Overview*
+
+- species groups
+- notable absences from these species groups
+- origins
+
+*Characteristics of Central Australia*
+
+- varied topography
+- large desert areas
+- several different bioregions
+
+Arid southern Northern Territory has a very large number of species despite the harsh climate (i.e. low rainfall, low nutrient soil)
+
+Simpson Desert has about 100 species, with maybe only one or two endemic species
+
+- this may be due to the Simpson Desert being a relatively young desert
+
+*Types of desert environment*
+
+- sand dunes
+    - these occur mostly in deserts
+    
+- alluvial clay plains   
+    - these provide varied habitats
+    - most important are the Burt Plains
+    
+- gibber plains
+    - not common in the Northern Territory - there are some in the Finke River bioregion
+    - they provide a variety of habitats, which vary with salt level and soil
+    
+- saltpans and lakes
+    - for example, Lake Amadeus
+    - in saline environments, there is a range of plants adapted to these conditions, including some chenopods, daisies, peas and samphires
+    
+- rivers and ephemeral swamps
+    - for example, Hale R., Plenty R., Finke R., the latter being the oldest river system in the world
+    - the origin of rivers is on the *other side* of the ranges, not *in* the ranges
+    - all these rivers flow to nowhere because sand has blocked their course
+    
+- hills
+
+- gorges and mountains
+    - especially Davenport, Murchison and MacDonnell Ranges
+    - note Mount Sonder is 1,200 m high
+
+<br>
+
+*Plant species* 
+
+*Sida*
+- half the species are undescribed and the other half are hard to tell apart
+
+Dominant plant families
+
+
+<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Family </th>
+   <th style="text-align:right;"> No. of species </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Poaceae </td>
+   <td style="text-align:right;"> 320 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Asteraceae </td>
+   <td style="text-align:right;"> 184 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fabaceae </td>
+   <td style="text-align:right;"> 174 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Chenopodeaceae </td>
+   <td style="text-align:right;"> 146 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Malvaceae </td>
+   <td style="text-align:right;"> 136 </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+Absent species
+
+- no Rutaceae species!
+- no orchids!
+
+<br>
+
+*Random bits*
+
+- *Callitris* only lives on slopes, away from fire prone areas (e.g. up on Simpsons Gap)
+- Wind pollination is more common than in other regions (i.e. more common than insect pollination)
+- Some plants were here when Central Australia was a lot wetter (e.g. cycads - *Macrozamia* and ferns) - these are *refugia* species
+- Plant distribution patterns depend on the origins of plants:
+    - temperate
+    - tropical
+    - refugia
+    
+<br>
+
+# Parasitic Plants - More Dryad than Dracula
+
+A dryad is a (oak) tree spirit or nymph that is so strongly connected to its tree that, if the tree dies, the nymph also dies.
+
+Parasitic plants have evolved eleven times across the plant kingdom.
+
+*Rafflesia*, stinking corpse lily, has no chloroplasts. It lives completely within its host; it's holoparasitic. It has no stems, leaves or roots and spreads its absorptive organ inside its host. The only visible part of the plant is the flower.
+
+Witchweed (*Stiga* spp.), an annual parasitic herb, is a major agricultural weed. Various species are weeds of cereals, grasses and cowpeas (and other legumes).
+
+The same mechanism rhizobia use to find a plant root is used by some of these parasitic plants.
+
+Pollinators rely on mistletoes in summer, as mistletoes are one of the few plants in flower. Mistletoes can do this because they can get moisture on demand from their hosts.
+
+Many more species of mistletoe evolved after song birds arrived - see paper in *Oikos*, "watson evolutionary dynamics 2025.pdf" (https://doi.org/10.1002/oik.11908) and report of that research, "watson mistletoes and songbirds 2025 CSUNews.pdf".
+
+Root parasites improve soil colour by increasing organic matter (check!).
+
+See Watson (2009), Parasitic plants as facilitators: more Dryad than Dracula? ("watson parasitic plants facilitators dryad dracula 2009.pdf")
+
+See Watson's web site, https://ecosystemunraveller.com
+
+Australian mistletoes are hemiparasites; they make their own sugar but need water.
+
+If mistletoes had, on balance, a deleterious effect on their hosts, they would have been extinct a long time ago.
+
+
+
+
+
+
+
+
+
+
+
